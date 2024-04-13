@@ -1,0 +1,444 @@
+    html{
+    scroll-behavior: smooth!important;
+    overflow-x: hidden;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    body{
+    mix-blend-mode: screen;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    .navbar{
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    position: fixed;
+    z-index: 5;
+    scroll-behavior: smooth;
+    background-color: #c0ddff7c;
+    }
+
+    .navtitle{
+    font-size: max(4vw);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #001921;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    }
+
+    .buttondiv{
+    background-color: #001318;
+    border-radius: 10vw;
+    height: max(1.5vw);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    gap: 1vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 2vw  ;
+    }
+
+    .buttons{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.7vw;
+    width: fit-content;
+    padding: 10px;
+    height: max(3vw);
+    border-radius: 10vw;
+    font-size: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: max(10vw);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    }
+
+    .buttons:hover {
+    background-color: white;
+    color: #001318;
+    cursor: pointer;
+    }
+
+    .buttons1 {
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.7vw;
+    width: fit-content;
+    padding: 10px;
+    height: max(3vw);
+    border-radius: 10vw;
+    font-size: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    }
+
+    .buttons1:hover{
+    background-color: white;
+    color: #001318;
+    cursor: pointer;
+    }
+
+    .button1{
+    border-radius: 6px;
+    background-color: #00141b;
+    height:4vw;
+    width: max-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 17vw;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 2.25vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    }
+
+    .button1:hover{
+    background-color: transparent;
+    color: #00141b;
+    border: 2px solid #00141b;
+    cursor: pointer;
+    }
+
+    #heropage{
+    width: 100vw;
+    height: max(100vw);
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    }
+
+    .herophoto{
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    z-index: -3;
+    mix-blend-mode: screen;
+    }
+
+    .herotitle{
+    font-size: max(7vw);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    color: #207c98;
+    letter-spacing: 0.7vw;
+    margin-left: 10vw;
+    margin-top: 10%;
+    }
+
+    .highlightitle{
+    font-family: "Big Shoulders Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 4px solid #003241;
+    border-bottom: 4px solid #003241;
+    color:rgb(0, 136, 255)
+    }
+
+    .subtitle{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3vw;
+    width: 40vw;
+    margin-left: 17vw;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #000c10;
+    }
+
+    .wave1{
+    z-index: 1;
+    position: relative;
+    margin-top: 55%;
+    width: 100%;
+    }
+
+    #aboutme{
+    background-color: #c0ddff;
+    width: 100vw;
+    height:60vw;
+    margin-top: -1vw;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    position: relative;
+    border-bottom-left-radius: 74px;
+    border-bottom-right-radius: 74px;
+    }
+
+    .title2{
+    font-family: "Big Shoulders Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 6vw;
+    margin-top: 8vw;
+    margin-left: 6vw;
+    position: absolute;
+    }
+
+    .details{
+    display: inline-block;
+    border: 3px solid #93c4ff;
+    height: fit-content;
+    width: max(85vw);
+    margin-top: 17vw;
+    margin-left: 7vw;
+    position: absolute;
+    border-radius: 62px;
+    background-color: transparent;
+    padding: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    z-index: -1;
+    }
+
+    .d1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3vw;
+    color: #001921;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    }
+
+    .d2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3vw;
+    color: #001921;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    }
+
+    .shift{
+    color: white;
+    border-top: 3px solid #001921;
+    border-bottom: 3px solid #001921;
+    }
+
+
+    .content{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    padding: 20px;
+    z-index: -1;
+    }
+
+    #achievements{
+    width: 100%;
+    height:70vw;
+    }
+
+    .title3{
+    font-family: "Big Shoulders Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 6vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
+    position: absolute;
+    }
+
+    .cards{
+display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+        margin-top: 20vw;
+        position: absolute;
+        margin-left: 10vw;
+    }
+
+    .cd1{
+    background-color: #c0ddff;
+        border-radius: 10px;
+        height: fit-content;
+        width: 20vw;
+        padding: 1vw;
+    }
+
+    .cd2 {
+    background-color: #c0ddff;
+        border-radius: 10px;
+        height: fit-content;
+        width: 81vw;
+        padding: 1vw;
+    }
+
+    .at1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3vw;
+    color: #001921;
+    }
+
+    .as1{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    }
+
+    #footer{
+        width: 100vw;
+        height: fit-content;
+        background-color: #00141b;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .ftext{
+        color: white;
+        font-size: 4vw;
+font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .fmail{
+        color: #5a98af;
+        font-size: 2vw;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: none;
+        padding: none;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .fphone {
+    color: #5a98af;
+    font-size: 2vw;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: none;
+    padding: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    }
+
+    .fmail:hover,.fphone:hover{
+        text-decoration: underline solid white;
+        color: white;
+
+    }
+
+    .mb{
+    color: #ffffff;
+        font-size: 1vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: none;
+        padding: none;
+    }
+    @media only screen and (max-width: 500px) {
+
+    .navbar{
+    height: max(10vw);
+    }
+
+    .navtitle{
+    font-size: max(5.5vw);
+    }
+
+    .buttondiv,.buttons1,.buttons,.button1{
+    visibility: hidden;
+    }
+
+    .heropage{
+    height: 100vw;
+    }
+
+    .herotitle{
+    font-size: max(15vw);
+    width: max(90%);
+    margin-top: min(31%);
+    text-align: center;
+    margin-left: max(4%);
+    mix-blend-mode:difference;
+    }
+
+    .highlightitle{
+    font-size: 10vw;
+    border-bottom: 4px solid #00242f;
+    border-top: 4px solid #00242f;
+    margin-left: max(-55%);
+        margin-right: max(-55vw);
+    margin-top: min(-20vw);
+        visibility: visible;
+        padding: max(8px);
+    }
+
+    .herophoto{
+    width: min(170vw);
+    margin-left:max(-50vw);
+    margin-top:max(10vw);
+    position: absolute;
+    }
+    .wave1{
+    margin-top: min(250vw);
+    }
+
+    .subtitle{
+        font-size: max(2.5vw);
+        margin-top: max(20vw);
+        width: max(75vw);
+        margin-left: max(13vw);
+    }
+    }
